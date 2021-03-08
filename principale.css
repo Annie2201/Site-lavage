@@ -1,0 +1,74 @@
+body {
+    color:white;
+    background-image:url(img.jpg);
+    margin-top: 178px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: ink free;
+    padding-left: 96px;
+    text-align: center;
+}
+
+div.col-sm{
+    width: 399px;
+    background: #FFFFFF;
+    padding: 58px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+    border-radius: 10px;
+    background: inherit;
+    overflow: hidden;
+    margin-left: 415px;;
+}
+div:before{
+    width: 300px;
+    height: 400px;
+    background: inherit;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.3);
+    filter: blur(10px);
+}
+   
+ 
+input.un{
+    width: 358px;
+    border: 1px solid #fdfdfd;
+    color: #000000;
+    padding: 20px;
+    margin-bottom: -13px;
+    background-color:inherit;
+}
+button{
+    background-image: linear-gradient(-22deg,rgb(41 28 227) 0%,#03e9f4 100%);
+    border: 0;
+    padding: 20px;
+    width: 399px;
+    color: white;
+}
+.pulse:hover, .pulse:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+.pulse {
+    --color: #fff;
+    --hover: #3f51b5;
+  }
+  button {
+    color: var(--color);
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+   }
+  }
+  ::placeholder {
+    color: #fafafa;
+  }
+.larger {
+    width: 38px;
+    height: 21px;
+}
